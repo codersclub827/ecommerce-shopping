@@ -49,10 +49,7 @@ Now Frontend will run on like http://localhost:3000
 3. Create a DB user (e.g., e-commerce)
 4. Whitelist IP Address → Allow Access from Anywhere (0.0.0.0/0)
 5. Click Connect → Connect your application
-6. Copy your Mongo URI Like :
-   ```bash
-   mongodb+srv://demo:kjkfldjskdljfkls@er4ere.dfdf.hdfkjhsdfhd/jlkjfdklsjdklf?retryWrites=true&w=majority
-   ```
+6. Copy your Mongo URI Like 
 7. Paste it into your .env file as MONGO_URI
 
 ### 🔐 Step 5: Admin Setup
