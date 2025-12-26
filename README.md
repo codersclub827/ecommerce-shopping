@@ -135,10 +135,6 @@ Now Frontend will run on like http://localhost:3000
 
 ### 🔐 Step 5: Admin Setup
 
-Option 1: Use Predefined Admin Credentials
-| Role | Email | Password |
-| ----- | --------------------------------------------- | -------- |
-| Admin | [admin@example.com](mailto:admin@example.com) | admin123 |
 
 Option 2: Promote Your Own Account
 
@@ -202,9 +198,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or need further clarification, please contact my email/ Linkedin .
 
-- **💌 Email : pranto113015@gmail.com**
+- **💌 Email : dishajoshi0611
 
-- **🕵️‍♂️ Linkedin : [Pranto Kumar](https://www.linkedin.com/in/pranto-kumar-a326801b3/)**
 
 **⭐ If you found this project helpful, please give it a star!**
 
