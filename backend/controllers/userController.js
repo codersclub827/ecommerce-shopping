@@ -2,6 +2,7 @@ import validator from 'validator';
 import bcryptjs from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import userModel from '../models/userModel.js';
+import Stripe from 'stripe';
 
 
 const createToken = (id) => {
@@ -114,3 +115,5 @@ const adminLogin = async (req, res) => {
 }
 
 export { loginUser, registerUser, adminLogin };
+// gateway initialization
+    export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);

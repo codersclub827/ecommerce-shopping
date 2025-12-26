@@ -11,6 +11,10 @@
   },
   "dependencies": {
     "axios": "^1.10.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.2",
+    "multer": "^2.0.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
@@ -30,5 +34,10 @@
     "postcss": "^8.4.45",
     "tailwindcss": "^3.4.11",
     "vite": "^5.4.1"
-  }
+  },
+  "description": "- step-1 : \r     ```sh\r     npm create vite@latest\r     ```\r - step-2 : created project name `frontend` \r - step-3 : selected framwork `react`\r - step-4 : seleted variant `JavaScript`\r - step-5 : \r     ```sh\r     cd frontend\r     ```\r     ```sh\r     npm install\r     ```\r     ```sh\r     npm install react-router-dom react-toastify\r     ```\r     ```sh\r     npm run dev\r     ```\r - step-6 : Install Tailwindcss Postcss\r     ```sh\r     npm install -D tailwindcss postcss autoprefixer\r     ```\r     ```sh\r     npx tailwindcss init -p\r     ```\r - step-7 : Install axios\r     ```sh\r      npm i axios\r     ```",
+  "main": "eslint.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

@@ -1,20 +1,28 @@
-import React from 'react'
-import Hero from '../components/Hero'
-import LatestCollection from '../components/LatestCollection'
-import BestSeller from '../components/BestSeller'
-import OurPolicy from '../components/OurPolicy'
-import NewsletterBox from '../components/NewsletterBox'
+import { useEffect, useState } from "react";
 
-const Home = () => {
+function Home() {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:5000/api/products")
+      .then(res => res.json())
+      .then(data => setProducts(data));
+  }, []);
+
   return (
     <div>
-      <Hero/>
-      <LatestCollection/>
-      <BestSeller/>
-      <OurPolicy/>
-      <NewsletterBox/>
+      {products.map((p) => (
+        <div key={p._id}>
+          <img
+            src={`http://localhost:5000${p.image}`}
+            width="150"
+          />
+          <h3>{p.name}</h3>
+          <p>৳ {p.price}</p>
+        </div>
+      ))}
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

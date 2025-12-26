@@ -1,18 +1,14 @@
 
 import orderModel from '../models/orderModel.js';
 import userModel from '../models/userModel.js';
-import Stripe from 'stripe';
 import Razorpay from 'razorpay';
+import { stripe } from './userController.js';
 
 
 
 // global variables
 const currency ="bdt"; // currency for the application
 const deliveryCharges = 10; 
-
-
-// gateway initialization
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 
 const razorpayInstance = new Razorpay({
