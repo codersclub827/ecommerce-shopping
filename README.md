@@ -34,42 +34,14 @@ This is a complete **Full Stack E-commerce Web Application** built using the MER
 - **State Management:** Context API (or Redux, optional)
 - **Deployment Ready:** Environment variables (`.env`), modular folder structure
 
-## 🔐 Credentials for authentication (for testing)
 
-| Role  | Email             | Password |
-| ----- | ----------------- | -------- |
-| Admin | admin@example.com | admin123 |
-| User  | user@gmail.com    | user@123 |
 
-> ⚠️ 🔑 **Note:** Admin panel access is disabled for security reasons.  
->  To request access, please contact me via [LinkedIn](https://www.linkedin.com/in/pranto-kumar-a326801b3/)
 
-## 🔑 Credentials for payment (for testing)
-
-| Role     | Email          | Card No             | Date  | CVC | Phone      |
-| -------- | -------------- | ------------------- | ----- | --- | ---------- |
-| Stripe   | demo@gmail.com | 4242 4242 4242 4242 | 12/34 | 567 |            |
-| Razorpay | demo@gmail.com | 4386 2894 0766 0153 | 15/35 | 234 | 9876543210 |
-
-## ⚙️ Local Installation & Setup Guide (Windows)
-
-A step-by-step guide to install and run the Forever-Shopping MERN stack project locally on your Windows PC.
-
-### ✅ Prerequisites
-
-Before starting, make sure the following tools are installed:
-
-| Tool          | Purpose                    | Download Link                                                                                |
-| ------------- | -------------------------- | -------------------------------------------------------------------------------------------- |
-| Node.js       | Backend & frontend runtime | [https://nodejs.org/](https://nodejs.org/)                                                   |
-| Git           | Clone GitHub repo          | [https://git-scm.com/](https://git-scm.com/)                                                 |
-| MongoDB Atlas | Cloud database             | [https://www.mongodb.com/cloud/atlas/register](https://www.mongodb.com/cloud/atlas/register) |
-| Code Editor   | VS Code recommended        | [https://code.visualstudio.com/](https://code.visualstudio.com/)                             |
 
 ### 📥 Step 1: Clone the Project
 
 ```bash
-git clone https://github.com/pranto113015/forever-shopping.git
+git clone https://github.com/codersclub827/forever-shopping.git
 cd forever-shopping
 ```
 
@@ -185,22 +157,3 @@ forever-shopping/
 
 [Click here](https://forever-frontend-gamma-eight.vercel.app/)
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙌 Acknowledgements
-
-- Developed as part of the **own learning**.
-- Inspired by MERN project like Full Stack E-comerce site.
-
-## ☎︎ Contact
-
-If you have any questions or need further clarification, please contact my email/ Linkedin .
-
-- **💌 Email : dishajoshi0611
-
-
-**⭐ If you found this project helpful, please give it a star!**
-
-This project demonstrates professional full-stack development with modern technologies, proper database integration and production-ready architecture. Perfect for showcasing your skills to potential employers!
