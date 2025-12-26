@@ -2,38 +2,6 @@
 
 This is a complete **Full Stack E-commerce Web Application** built using the MERN stack (MongoDB, Express.js, React, Node.js) with secure Stripe payment integration. It includes all the core features of a modern e-commerce platform such as product listing, shopping cart, user authentication, order management, and payment processing. Whether you're learning MERN or building a real-world e-commerce solution, this project provides a solid foundation for scalable and production-ready applications.
 
-## 🎯 Project Objectives
-
-- **🔧 Build a complete MERN stack application** that follows modern development practices and architecture.
-- **🎨 Develop a responsive and user-friendly UI** using React JS for seamless user experience across all devices.
-- **🛡️ Implement user authentication and authorization** using JSON Web Tokens (JWT) for secure login and route protection.
-- **🛒 Design a dynamic cart and checkout system** that supports both Cash on Delivery (COD) and Stripe payment processing.
-- **🗃️ Manage product and order data** efficiently using MongoDB and Mongoose for database operations.
-- **💼 Include an Admin Dashboard** for managing products, users, and orders with real-time updates.
-- **💳 Integrate Stripe API** to securely handle online payments and transaction management.
-- **📦 Enable order tracking, history, and user account management** for a full-fledged e-commerce experience.
-- **📁 Maintain clean, modular, and reusable code structure** to facilitate scalability and collaboration.
-
-## 🚀 Core Features
-
-- **User Registration & Login** (JWT Authentication)
-- **Admin Panel** for Product & Order Management
-- **Add to Cart** and Full Checkout Flow
-- **Cash on Delivery (COD)** & **Stripe Payment** Integration
-- **Responsive UI** (Mobile-friendly Design)
-- **Protected Routes** for Users and Admins
-- **Order History** and Detailed Order View
-- **Clean and Scalable Folder Structure**
-
-## 🖥️ Tech Stack
-
-- **Frontend:** React JS, React Router, Axios, Bootstrap/Tailwind CSS
-- **Backend:** Node.js, Express.js, MongoDB (with Mongoose)
-- **Authentication:** JSON Web Tokens (JWT)
-- **Payment Integration:** Stripe API
-- **State Management:** Context API (or Redux, optional)
-- **Deployment Ready:** Environment variables (`.env`), modular folder structure
-
 
 
 
@@ -52,21 +20,8 @@ cd backend
 npm install
 ```
 
-Create a .env file in the /backend directory:
 
-```bash
-MONGODB_URL = your_mongodb_atlas_connection_string
-CLOUDINARY_API_KEY = your_cloudinary_api_key
-CLOUDINARY_SECRET_KEY = your_cloudinary_secret_key
-CLOUDINARY_NAME = your_cloudinary_name
-JWT_SECRET = your_jwt_secret
-ADMIN_EMAIL = "admin@example.com"
-ADMIN_PASSWORD = "admin123"
-STRIPE_SECRET_KEY = your_stripe_secret_key
-RAZORPAY_KEY_SECRET = your_rasorpay_key_secret
-RAZORPAY_KEY_ID = your_rasorpay_key_id
-PORT=5000
-```
+
 
 Run the backend server:
 
@@ -83,12 +38,7 @@ cd frontend
 npm install
 ```
 
-Create a .env file in the /frontend directory:
 
-```bash
-VITE_BACKEND_URL= your_backend_url_port
-VITE_RAZORPAY_KEY_ID = your_razorpay_key_id
-```
 
 Now Frontend will run on like http://localhost:3000
 
